@@ -3,18 +3,41 @@
 
 /*format funciona para que el archivo cargue mas rápido*/
 
+
+/* Ubuntu */
 @font-face {
-    font-family: "Ubuntu-medium";
+    font-family: "Ubuntu-m";
     src: url(/Fonts/Ubuntu-Medium.ttf) format("truetype"); 
     font-weight: 400;
 }
 
 @font-face {
-    font-family: "Ubuntu-italic";
-    src: url(/Fonts/Ubuntu-Italic.ttf) format("truetype");
+    font-family: "Ubuntu-mi";
+    src: url(/Fonts/Ubuntu-MediumItalic.ttf) format("truetype");
+    font-weight: 400;
 }
 
 @font-face {
-    font-family: "Ubuntu-light-italic";
-    src: url(/Fonts/Ubuntu-LightItalic.ttf);
+    font-family: "Ubuntu-i";
+    src: url(/Fonts/Ubuntu-Italic.ttf) format("truetype");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "Ubuntu-li";
+    src: url(/Fonts/Ubuntu-LightItalic.ttf) format("truetype");
+    font-weight: 200;
+}
+
+/* Monserrat */
+@font-face {
+    font-family: "Monserrat";
+    src: url(/Fonts/Montserrat-VariableFont_wght.ttf) format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Moserrat-i";
+    src: url(/Fonts/Montserrat-Italic-VariableFont_wght.ttf) format("truetype");
+    font-weight: 400;
 }

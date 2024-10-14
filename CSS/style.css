@@ -2,9 +2,120 @@
 :root{
     --blanco: #ffffff;
     --negro: #000000;
-    --primario: #39a900;
-    --secundario: #007832;
-    --gris: #f6f6f6;
+    --azul: #1f6feb;
+    --azul-claro: #66ccff;
+    --gris: #b3b3b3;
     --fuente-principal: 3.8rem;
 }
 
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+h1 {
+    font-size: 2.8rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: .8rem;
+}
+
+body {
+    font-family: Ubuntu-m;
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to top, var(--gris) 5%, var(--blanco) 95%);
+}
+
+/* INICIO NAV */
+
+.container-adso {
+    display: flex;
+    justify-content:flex-start;
+    margin: .5rem 0;
+    padding: 0 .5rem;
+    align-items: center;
+}
+
+.container-adso img {
+    width: 5rem;
+    height: 3rem;
+    padding: 0 .5rem;
+}
+
+.nav-bg-container {
+    padding: 1rem;
+    margin: 0;
+    width: auto;
+    background-image: linear-gradient(to right, var(--azul-claro) 20%, var(--azul) 80%);
+    font-size: 1rem;
+}
+
+.nav-principal {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.nav-principal a{
+    padding: 0 2rem;
+    margin: 0 2rem;
+    text-decoration: none;
+    color: var(--negro);
+    transition: color 0.5s ease;
+}
+
+.nav-principal a:hover{
+    color: var(--azul);
+}
+
+/* FIN NAV */
+
+/* INICIO FONDO */
+
+.container-bg {
+    background-image: url("/img/fondo-programacion.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem;
+}
+
+.section-bg {
+    color: var(--blanco);
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.container-icon {
+    display: flex; /* Usar flexbox para alinear imagen y texto */
+    align-items: center; /* Alinear verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
+    margin-bottom: 2.5rem;
+}
+
+.container-icon img {
+    width: 2.5rem;
+    margin-left: 1rem;
+}
+
+.container-icon i {
+    font-size: 1rem;
+}
+
+
+
+/* FIN FONDO */
