@@ -1,0 +1,20 @@
+/* Archivo dedicado para extraer los tipos de fuentes ya descargados de google-fonts 
+*/
+
+/*format funciona para que el archivo cargue mas rápido*/
+
+@font-face {
+    font-family: "Ubuntu-medium";
+    src: url(/Fonts/Ubuntu-Medium.ttf) format("truetype"); 
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Ubuntu-italic";
+    src: url(/Fonts/Ubuntu-Italic.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Ubuntu-light-italic";
+    src: url(/Fonts/Ubuntu-LightItalic.ttf);
+}
